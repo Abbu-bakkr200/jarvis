@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.hear{
+    text-align: center;
+    row-gap: -1px;
+    background-color: rgb(54, 54, 54);
+    color: azure;
+    border: none;
+    border-radius: 10px;
+}
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.container{
+    background-color: lightgrey;
+    padding: 5px 20px  15px 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="message"],
+input[type="text"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin: 10px;
+}
+.main-heading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color:rgb(54, 54, 54);
+    color: azure;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: tomato;
+}
+
+
+
